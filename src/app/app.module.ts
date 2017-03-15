@@ -5,6 +5,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { MyEventsPage } from '../pages/my-events/my-events';
 import { CreateEventPage } from '../pages/create-event/create-event';
 import { MainEventPage } from '../pages/main-event/main-event';
 
@@ -15,6 +16,7 @@ import { MainEventPage } from '../pages/main-event/main-event';
     ContactPage,
     HomePage,
     TabsPage,
+    MyEventsPage,
     CreateEventPage,
     MainEventPage
   ],
@@ -28,6 +30,7 @@ import { MainEventPage } from '../pages/main-event/main-event';
     ContactPage,
     HomePage,
     TabsPage,
+    MyEventsPage,
     CreateEventPage,
     MainEventPage
   ],

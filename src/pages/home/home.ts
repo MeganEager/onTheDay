@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { MainEventPage } from '../main-event/main-event';
+import { CreateEventPage } from '../create-event/create-event';
 
 @Component({
   selector: 'page-home',
@@ -12,7 +13,7 @@ export class HomePage {
     events: any[];
 
   constructor(public navCtrl: NavController) {
-        this.events = [];  //will eventually be a list of events from user DB
+        this.events = [];  //will eventually be a list of all events from user DB
         for(let i = 0; i<10; i++){
             this.events.push({
                 title: 'Event '+ i,
@@ -21,6 +22,10 @@ export class HomePage {
                 id: 'eventID' + i
             });
         }
+  }
+
+  createEvent(){
+      this.navCtrl.push(CreateEventPage);
   }
 
   eventSelected(event){
