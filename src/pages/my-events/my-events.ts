@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 import { MainEventPage } from '../main-event/main-event';
+import { CreateEventPage } from '../create-event/create-event';
+
 
 @Component({
   selector: 'page-my-events',
@@ -23,6 +25,9 @@ export class MyEventsPage {
 
   }
 
+  createEvent(){
+    this.navCtrl.push(CreateEventPage);
+  }
   eventSelected(event){
       this.navCtrl.push(MainEventPage, {
         event: event

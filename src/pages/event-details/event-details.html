@@ -1,5 +1,5 @@
 <!--
-  Generated template for the MainEvent page.
+  Generated template for the EventDetails page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
@@ -8,16 +8,11 @@
 
   <ion-navbar>
     <ion-title>{{event.title}}</ion-title>
-    <ion-buttons end (click)="eventInfo(event)">
-      <button ion-button icon-only>
-        <ion-icon name="information-circle"></ion-icon>
-      </button>
-    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+      {{event.description}}
 </ion-content>

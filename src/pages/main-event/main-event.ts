@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-/*
-  Generated class for the MainEvent page.
+import { EventDetailsPage } from '../event-details/event-details';
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-main-event',
   templateUrl: 'main-event.html'
@@ -16,6 +12,12 @@ export class MainEventPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
       this.event = navParams.get('event');
+  }
+
+  eventInfo(event){
+  this.navCtrl.push(EventDetailsPage, {
+    event: event
+  });
   }
 
 }
