@@ -8,6 +8,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { MyEventsPage } from '../pages/my-events/my-events';
 import { SettingsPage } from '../pages/settings/settings';
 import { CreateEventPage } from '../pages/create-event/create-event';
+import { JoinEventPage } from '../pages/join-event/join-event';
 import { MainEventPage } from '../pages/main-event/main-event';
 import { EventDetailsPage } from '../pages/event-details/event-details';
 
@@ -21,6 +22,7 @@ import { EventDetailsPage } from '../pages/event-details/event-details';
     MyEventsPage,
     SettingsPage,
     CreateEventPage,
+    JoinEventPage,
     MainEventPage,
     EventDetailsPage
   ],
@@ -37,6 +39,7 @@ import { EventDetailsPage } from '../pages/event-details/event-details';
     MyEventsPage,
     SettingsPage,
     CreateEventPage,
+    JoinEventPage,
     MainEventPage,
     EventDetailsPage
   ],

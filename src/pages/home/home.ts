@@ -4,6 +4,7 @@ import { NavController } from 'ionic-angular';
 
 import { MainEventPage } from '../main-event/main-event';
 import { CreateEventPage } from '../create-event/create-event';
+import { JoinEventPage } from '../join-event/join-event';
 
 @Component({
   selector: 'page-home',
@@ -32,5 +33,9 @@ export class HomePage {
       this.navCtrl.push(MainEventPage, {
         event: event
       });
+  }
+
+  joinEvent(){
+      this.navCtrl.push(JoinEventPage);
   }
 }
