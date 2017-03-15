@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
 
-import { MainEventPage } from '../main-event-page/main-event-page';
+import { MainEventPage } from '../main-event/main-event';
 
 @Component({
   selector: 'page-home',
@@ -25,7 +25,7 @@ export class HomePage {
 
   eventSelected(event){
       this.navCtrl.push(MainEventPage, {
-        event:event
+        event: event
       });
   }
 }

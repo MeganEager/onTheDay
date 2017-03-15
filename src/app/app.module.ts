@@ -6,7 +6,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { CreateEventPage } from '../pages/create-event/create-event';
-import { MainEventPage } from '../pages/main-event-page/main-event-page';
+import { MainEventPage } from '../pages/main-event/main-event';
 
 @NgModule({
   declarations: [
